@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 20px;
+}
+
+#map {
+    border: 1px solid darkolivegreen;
+}
+
+#dungeon-menu {
+    margin: 20px 0;
+}
+
+.dungeon-menu-item {
+    border: 1px solid gray;
+    cursor: pointer;
+    padding: 10px;
+    color: gray;
+    border-radius: 8px;
+}
+
+.dungeon-menu-item:hover {
+    border-color: dodgerblue;
+    color: dodgerblue;
+}
